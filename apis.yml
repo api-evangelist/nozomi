@@ -1,8 +1,28 @@
 aid: nozomi
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nozomi.png
 name: Nozomi
-description: 'Nozomi is a company surfaced as a portfolio company of ggv-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: security. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Nozomi Networks is an operational technology (OT), IoT and cyber-physical
+  systems security company providing asset visibility, vulnerability management and
+  threat detection for industrial and critical infrastructure environments. Its platform
+  pairs the Vantage cloud console and the on-premises Central Management Console (CMC)
+  with the Guardian, Guardian Air (wireless) and Arc (endpoint) sensors, plus Threat
+  Intelligence and Asset Intelligence modules, monitoring OT/IoT/IT devices across
+  thousands of deployments in energy, manufacturing, healthcare, transportation, water,
+  mining, maritime, retail and government sectors. A Vantage REST API and an N2OS /
+  Universal SDK support programmatic integration; the full API reference is delivered
+  inside the authenticated Vantage tenant and technical documentation portal rather
+  than as a public OpenAPI description.'
 url: https://raw.githubusercontent.com/api-evangelist/nozomi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Security
+- OT Security
+- IoT Security
+- Industrial Control Systems
+- Cybersecurity
+- Critical Infrastructure
+- Threat Detection
+- Asset Visibility
+- Operational Technology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.nozominetworks.com/
+- type: Documentation
+  url: https://technicaldocs.nozominetworks.com/
+- type: Blog
+  url: https://www.nozominetworks.com/blog
+- type: GitHubOrganization
+  url: https://github.com/nozominetworks
+- type: DomainSecurity
+  url: security/nozomi-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/nozomi-vulnerability-disclosure.yml
+- type: Security
+  url: https://security.nozominetworks.com/
+- type: LLMsTxt
+  url: llms/nozomi-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

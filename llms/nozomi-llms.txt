@@ -1,0 +1,33 @@
+# Nozomi Networks
+
+> Nozomi Networks is an operational technology (OT), IoT and cyber-physical
+> systems (CPS) security company. Its platform delivers asset visibility,
+> vulnerability management and threat detection across industrial and critical
+> infrastructure environments — monitoring OT/IoT/IT devices across thousands of
+> installations worldwide. Core products are the Vantage cloud platform, the
+> on-premises Central Management Console (CMC), and the Guardian, Guardian Air
+> (wireless) and Arc (endpoint) sensors, plus Threat Intelligence and Asset
+> Intelligence enhancement modules.
+
+Note: Nozomi Networks exposes a Vantage REST API and an N2OS / Universal SDK for
+programmatic integration, but the full API reference is delivered inside the
+authenticated Vantage tenant and technical documentation portal — no public
+OpenAPI description was found on the open web at enrichment time.
+
+## Docs
+- [Technical Documentation](https://technicaldocs.nozominetworks.com/): Product documentation hub for Vantage, CMC, Guardian, Guardian Air, Arc, Remote Collector, Threat Intelligence, Asset Intelligence and the N2OS / Universal SDK.
+- [Resources Library](https://www.nozominetworks.com/resources): Guides, whitepapers, webinars, case studies and research reports.
+- [OT & IoT Security Blog](https://www.nozominetworks.com/blog): Product updates, Labs research, threat and regulatory news.
+
+## Products
+- [Vantage](https://www.nozominetworks.com/products/vantage): SaaS cloud OT/IoT security management platform.
+- [Guardian](https://www.nozominetworks.com/products/guardian): Network appliance/virtual sensor for OT/IoT visibility and detection.
+- [Arc](https://www.nozominetworks.com/products/arc): Endpoint sensor.
+
+## Code & Security
+- [GitHub Organization](https://github.com/nozominetworks): Public ICS/malware research tooling (tricotools, urgent-11, stix-tools, cti-taxii-server) — no first-party API SDK repos.
+- [PSIRT / Security Advisories](https://security.nozominetworks.com/): Product Security Incident Response Team, advisories and coordinated vulnerability disclosure (prodsec@nozominetworks.com).
+
+## Company
+- [Website](https://www.nozominetworks.com/)
+- [Careers](https://www.nozominetworks.com/company/careers/)
